@@ -1,0 +1,36 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>GSP</h2>
+
+<div class="gsp-div">
+    <form class="form-horizontal" method="post">
+        <div class="control-group">
+            <label class="control-label" for="inputEmail">Nome:</label>
+            <div class="controls">
+                <input type="text" id="inputEmail" placeholder="Email">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="inputPassword">Variáveis:</label>
+            <div class="controls">
+                <div class="input-append">
+                    <input class="span2" id="appendedDropdownButton" type="text">
+                    <div class="btn-group">
+                        <select class="btn ddl-tipo">
+                            <option value="value">Tipo</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button class="btn-add-variavel"><i class="icon-plus"></i></button>
+            </div>
+        </div>
+        <div class="control-group">
+            <div class="controls">
+                <button type="submit" class="btn">Sign in</button>
+            </div>
+        </div>
+    </form>
+</div>
